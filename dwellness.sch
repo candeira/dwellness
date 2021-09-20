@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_OTG J?
+L dwellness-rescue:USB_OTG-Connector J?
 U 1 1 61408180
 P 4050 5500
 F 0 "J?" V 4153 5830 50  0000 L CNN
@@ -57,7 +57,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 1750 3150 1750
 $Comp
-L Connector:USB_OTG J?
+L dwellness-rescue:USB_OTG-Connector J?
 U 1 1 6140725A
 P 2350 1850
 F 0 "J?" H 2121 1747 50  0000 R CNN
@@ -96,12 +96,12 @@ Wire Wire Line
 $Comp
 L pspice:DIODE D?
 U 1 1 6148101E
-P 4550 4900
-F 0 "D?" V 4596 4772 50  0000 R CNN
-F 1 "DIODE" V 4505 4772 50  0000 R CNN
-F 2 "" H 4550 4900 50  0001 C CNN
-F 3 "~" H 4550 4900 50  0001 C CNN
-	1    4550 4900
+P 4600 4900
+F 0 "D?" V 4646 4772 50  0000 R CNN
+F 1 "DIODE" V 4555 4772 50  0000 R CNN
+F 2 "" H 4600 4900 50  0001 C CNN
+F 3 "~" H 4600 4900 50  0001 C CNN
+	1    4600 4900
 	1    0    0    -1  
 $EndComp
 Connection ~ 5600 5850
@@ -147,7 +147,7 @@ Connection ~ 2800 3600
 Wire Wire Line
 	4050 2050 3750 2050
 $Comp
-L Connector:USB_OTG J?
+L dwellness-rescue:USB_OTG-Connector J?
 U 1 1 61405F9C
 P 8150 5100
 F 0 "J?" H 7920 5089 50  0000 R CNN
@@ -158,7 +158,7 @@ F 3 " ~" H 8300 5050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_OTG J?
+L dwellness-rescue:USB_OTG-Connector J?
 U 1 1 61408F70
 P 6500 5500
 F 0 "J?" V 6603 5829 50  0000 L CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5600 6900 5500
 $Comp
-L Connector:USB_OTG J?
+L dwellness-rescue:USB_OTG-Connector J?
 U 1 1 61401E9B
 P 8200 1850
 F 0 "J?" H 7970 1747 50  0000 R CNN
@@ -293,10 +293,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 2050 4050 5200
 Wire Wire Line
-	4250 4900 4350 4900
+	4250 4900 4400 4900
 Connection ~ 4250 4900
 Wire Wire Line
-	4750 4900 5200 4900
+	4800 4900 5200 4900
 Wire Wire Line
 	5200 4000 5200 4900
 Wire Wire Line
